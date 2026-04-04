@@ -58,6 +58,12 @@ const guides = [
   href: "/guides/what-is-a-good-roi",
   category: "Investing",
 },
+{
+  title: "Loan Payment Formula Explained",
+  description: "Understand the loan payment formula with a simple example.",
+  href: "/guides/loan-payment-formula-explained",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

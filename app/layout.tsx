@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import type { Metadata } from "next";
@@ -29,7 +30,21 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col"><Navbar />{children}<Footer /></body>
+      <body className="min-h-full flex flex-col"><Navbar />{children}<Footer />
+        <Script
+    src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+    strategy="afterInteractive"
+  />
+
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-X6NW1MC9KX');
+    `}
+        </Script>
+      </body>
     </html>
   );
 }

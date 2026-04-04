@@ -75,6 +75,37 @@ export default function HowLoanPaymentsWorkPage() {
       </a>
     </div>
   </section>
+  <section className="mt-10 space-y-6 rounded-3xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
+  <h2 className="text-2xl font-semibold">Frequently Asked Questions</h2>
+
+  <div>
+    <h3 className="font-semibold">What affects my monthly loan payment?</h3>
+    <p className="mt-2 text-slate-600">
+      Your monthly payment depends on the loan amount, interest rate, and loan term.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">Is a longer loan term better?</h3>
+    <p className="mt-2 text-slate-600">
+      A longer loan term lowers your monthly payment but increases the total interest paid.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">How can I reduce total interest?</h3>
+    <p className="mt-2 text-slate-600">
+      You can reduce total interest by choosing a shorter loan term or a lower interest rate.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="font-semibold">Should I focus on monthly payment or total cost?</h3>
+    <p className="mt-2 text-slate-600">
+      It is better to consider both. A lower monthly payment may result in higher total cost over time.
+    </p>
+  </div>
+</section>
 </article>
     </main>
   );

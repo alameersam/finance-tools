@@ -1,0 +1,79 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Financial Guides - Learn Finance Basics",
+  description:
+    "Simple guides explaining loans, savings, ROI, and key financial concepts to help you make better decisions.",
+};
+const guides = [
+  {
+    title: "How Loan Payments Work",
+    description:
+      "Learn how monthly loan payments are calculated and what affects total interest.",
+    href: "/guides/how-loan-payments-work",
+    category: "Loans",
+  },
+  {
+    title: "How Compound Interest Grows Savings",
+    description:
+      "Understand how time and interest rate affect the growth of your savings.",
+    href: "/guides/how-compound-interest-grows-savings",
+    category: "Savings",
+  },
+  {
+    title: "What ROI Really Means",
+    description:
+      "A simple explanation of return on investment and how to use it in decision making.",
+    href: "/guides/what-roi-really-means",
+    category: "Investing",
+  },
+];
+
+export default function GuidesPage() {
+  return (
+    <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900 lg:px-8">
+      <div className="mx-auto max-w-7xl">
+        <div className="max-w-3xl">
+          <p className="inline-block rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700">
+            Financial Guides
+          </p>
+
+          <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">
+            Learn the basics behind the calculators
+          </h1>
+
+          <p className="mt-6 text-lg leading-8 text-slate-600">
+            Explore simple guides that explain key personal finance concepts and
+            help you use the calculators with more confidence.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          {guides.map((guide) => (
+            <a
+              key={guide.title}
+              href={guide.href}
+              className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200 transition hover:shadow-md"
+            >
+              <p className="text-sm font-medium text-emerald-700">
+                {guide.category}
+              </p>
+
+              <h2 className="mt-3 text-2xl font-semibold tracking-tight">
+                {guide.title}
+              </h2>
+
+              <p className="mt-3 text-sm leading-6 text-slate-600">
+                {guide.description}
+              </p>
+
+              <div className="mt-5 text-sm font-medium text-slate-900">
+                Read guide →
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </main>
+  );
+}

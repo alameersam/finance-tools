@@ -27,6 +27,13 @@ const guides = [
     href: "/guides/what-roi-really-means",
     category: "Investing",
   },
+  {
+  title: "Loan Term vs Interest Cost",
+  description:
+    "Learn how a longer or shorter loan term affects monthly payment and total interest.",
+  href: "/guides/loan-term-vs-interest-cost",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

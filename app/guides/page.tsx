@@ -64,6 +64,18 @@ const guides = [
   href: "/guides/loan-payment-formula-explained",
   category: "Loans",
 },
+{
+  title: "ROI Formula Explained",
+  description: "Learn the ROI formula with a simple example.",
+  href: "/guides/roi-formula-explained",
+  category: "Investing",
+},
+{
+  title: "Compound Interest Formula Explained",
+  description: "Understand the compound interest formula with an example.",
+  href: "/guides/compound-interest-formula-explained",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {

@@ -34,6 +34,12 @@ const guides = [
   href: "/guides/loan-term-vs-interest-cost",
   category: "Loans",
 },
+{
+  title: "How to Calculate Loan Payment",
+  description: "Step-by-step guide to calculate your loan payment.",
+  href: "/guides/how-to-calculate-loan-payment",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

@@ -74,6 +74,48 @@ export default function GuidesPage() {
           ))}
         </div>
       </div>
+      <section className="mt-16">
+  <div className="max-w-3xl">
+    <h2 className="text-3xl font-bold tracking-tight">
+      Try our calculators
+    </h2>
+    <p className="mt-4 text-lg text-slate-600">
+      Apply what you learned using our simple financial tools.
+    </p>
+  </div>
+
+  <div className="mt-8 grid gap-6 md:grid-cols-3">
+    <a
+      href="/loan-calculator"
+      className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200 hover:shadow-md"
+    >
+      <h3 className="text-xl font-semibold">Loan Calculator</h3>
+      <p className="mt-2 text-sm text-slate-600">
+        Estimate monthly payments and total interest.
+      </p>
+    </a>
+
+    <a
+      href="/savings-calculator"
+      className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200 hover:shadow-md"
+    >
+      <h3 className="text-xl font-semibold">Savings Calculator</h3>
+      <p className="mt-2 text-sm text-slate-600">
+        See how your savings grow over time.
+      </p>
+    </a>
+
+    <a
+      href="/roi-calculator"
+      className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200 hover:shadow-md"
+    >
+      <h3 className="text-xl font-semibold">ROI Calculator</h3>
+      <p className="mt-2 text-sm text-slate-600">
+        Calculate return on investment.
+      </p>
+    </a>
+  </div>
+</section>
     </main>
   );
 }

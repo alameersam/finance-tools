@@ -94,6 +94,39 @@ export default function Home() {
     ))}
   </div>
 </section>
+<section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+  <div className="max-w-3xl">
+    <h2 className="text-3xl font-bold tracking-tight">
+      Why use FinanceTools
+    </h2>
+    <p className="mt-4 text-lg text-slate-600">
+      Clear tools, simple explanations, and fast results to help you make better financial decisions.
+    </p>
+  </div>
+
+  <div className="mt-10 grid gap-6 md:grid-cols-3">
+    <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+      <h3 className="text-xl font-semibold">Simple to use</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        Enter your numbers and get results instantly without creating an account.
+      </p>
+    </div>
+
+    <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+      <h3 className="text-xl font-semibold">Built for clarity</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        Every calculator is designed to be clean, readable, and easy to understand.
+      </p>
+    </div>
+
+    <div className="rounded-3xl bg-white p-6 shadow-sm ring-1 ring-slate-200">
+      <h3 className="text-xl font-semibold">Learn while you use</h3>
+      <p className="mt-3 text-sm leading-6 text-slate-600">
+        Guides help explain the logic behind loans, savings, and return on investment.
+      </p>
+    </div>
+  </div>
+</section>
     </main>
   );
 }

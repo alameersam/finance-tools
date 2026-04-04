@@ -5,29 +5,14 @@ const calculators = [
     href: "/loan-calculator",
   },
   {
-    title: "Extra Payment Calculator",
-    description: "See how extra payments reduce total loan cost and duration.",
-    href: "#",
-  },
-  {
     title: "Savings Calculator",
     description: "Estimate how your savings can grow over time.",
     href: "/savings-calculator",
   },
   {
-    title: "Debt Payoff Calculator",
-    description: "Plan your debt repayment more effectively.",
-    href: "#",
-  },
-  {
     title: "ROI Calculator",
     description: "Measure return on investment with simple inputs.",
     href: "/roi-calculator",
-  },
-  {
-    title: "Rent vs Buy Calculator",
-    description: "Compare the cost of renting versus buying a home.",
-    href: "#",
   },
 ];
 

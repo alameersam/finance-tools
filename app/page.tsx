@@ -99,11 +99,6 @@ export default function Home() {
         href: "/loan-calculator",
       },
       {
-        title: "Extra Payment Calculator",
-        description: "See how extra payments reduce loan time.",
-        href: "#",
-      },
-      {
         title: "ROI Calculator",
         description: "Calculate return on investment and profit.",
         href: "/roi-calculator",
@@ -112,11 +107,6 @@ export default function Home() {
         title: "Savings Calculator",
         description: "Project future savings growth.",
         href: "/savings-calculator",
-      },
-      {
-        title: "Debt Payoff Calculator",
-        description: "Plan your path to becoming debt-free.",
-        href: "#",
       },
     ].map((tool) => (
       <a

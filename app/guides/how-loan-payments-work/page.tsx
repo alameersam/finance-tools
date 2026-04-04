@@ -6,7 +6,45 @@ export const metadata: Metadata = {
     "Learn how loan payments are calculated, including interest rates, loan terms, and total repayment.",
 };
 export default function HowLoanPaymentsWorkPage() {
-  return (
+    const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What affects my monthly loan payment?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your monthly payment depends on the loan amount, interest rate, and loan term."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a longer loan term better?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A longer loan term lowers your monthly payment but increases the total interest paid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I reduce total interest?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You can reduce total interest by choosing a shorter loan term or a lower interest rate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Should I focus on monthly payment or total cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is better to consider both. A lower monthly payment may result in higher total cost over time."
+      }
+    }
+  ]
+};
+    return (
     <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900 lg:px-8">
       <article className="mx-auto max-w-3xl">
   <p className="inline-block rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700">
@@ -106,6 +144,10 @@ export default function HowLoanPaymentsWorkPage() {
     </p>
   </div>
 </section>
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+/>
 </article>
     </main>
   );

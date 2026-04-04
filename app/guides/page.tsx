@@ -40,6 +40,24 @@ const guides = [
   href: "/guides/how-to-calculate-loan-payment",
   category: "Loans",
 },
+{
+  title: "How Much Loan Can I Afford",
+  description: "Estimate how much loan fits your budget.",
+  href: "/guides/how-much-loan-can-i-afford",
+  category: "Loans",
+},
+{
+  title: "How to Calculate Savings Growth",
+  description: "Understand how savings grow over time.",
+  href: "/guides/how-to-calculate-savings-growth",
+  category: "Savings",
+},
+{
+  title: "What Is a Good ROI",
+  description: "Learn what ROI is considered good.",
+  href: "/guides/what-is-a-good-roi",
+  category: "Investing",
+},
 ];
 
 export default function GuidesPage() {

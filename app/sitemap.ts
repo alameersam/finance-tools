@@ -44,5 +44,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/guides/loan-term-vs-interest-cost`,
       lastModified: new Date(),
     },
+    {
+  url: `${baseUrl}/guides/how-to-calculate-loan-payment`,
+  lastModified: new Date(),
+},
   ];
 }

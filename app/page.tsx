@@ -9,67 +9,33 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-        <div className="grid items-center gap-12 lg:grid-cols-2">
-          <div>
-            <p className="inline-block rounded-full bg-emerald-100 px-3 py-1 text-sm font-medium text-emerald-700">
-              Free financial calculators
-            </p>
+  <div className="max-w-3xl">
+    <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+      Simple financial calculators to make smarter decisions
+    </h1>
 
-            <h1 className="mt-6 text-4xl font-bold tracking-tight sm:text-5xl">
-              Make smarter money decisions with simple financial tools
-            </h1>
+    <p className="mt-6 text-lg leading-8 text-slate-600">
+      Use our free tools to calculate loan payments, grow your savings, and
+      evaluate investments in seconds.
+    </p>
 
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              Calculate loans, savings, ROI, and more with fast, clean, and
-              easy-to-use tools. No signup needed.
-            </p>
+    <div className="mt-8 flex gap-4">
+      <a
+        href="/calculators"
+        className="rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800"
+      >
+        View Calculators
+      </a>
 
-            <div className="mt-8 flex flex-wrap gap-4">
-              <a
-                href="/calculators"
-                className="rounded-xl bg-slate-900 px-5 py-3 text-sm font-semibold text-white shadow hover:bg-slate-800"
-              >
-                Explore calculators
-              </a>
-
-              <a
-                href="/loan-calculator"
-                className="rounded-xl border border-slate-300 bg-white px-5 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-100"
-              >
-                Try loan calculator
-              </a>
-            </div>
-          </div>
-
-          <div className="rounded-3xl bg-white p-6 shadow-lg ring-1 ring-slate-200">
-            <h2 className="text-xl font-semibold">Quick Loan Snapshot</h2>
-            <p className="mt-2 text-sm text-slate-500">
-              Example layout for your future calculator cards.
-            </p>
-
-            <div className="mt-6 space-y-4">
-              <div className="rounded-2xl bg-slate-50 p-4">
-                <p className="text-sm text-slate-500">Loan Amount</p>
-                <p className="mt-1 text-xl font-semibold">$100,000</p>
-              </div>
-
-              <div className="rounded-2xl bg-slate-50 p-4">
-                <p className="text-sm text-slate-500">Interest Rate</p>
-                <p className="mt-1 text-xl font-semibold">5.00%</p>
-              </div>
-
-              <div className="rounded-2xl bg-emerald-50 p-4">
-                <p className="text-sm text-emerald-700">
-                  Estimated Monthly Payment
-                </p>
-                <p className="mt-1 text-2xl font-bold text-emerald-800">
-                  $790.79
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <a
+        href="/guides"
+        className="rounded-xl border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-900 hover:bg-slate-100"
+      >
+        Learn More
+      </a>
+    </div>
+  </div>
+</section>
 
       {/* POPULAR CALCULATORS SECTION */}
 <section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">

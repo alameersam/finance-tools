@@ -94,6 +94,12 @@ const guides = [
   href: "/guides/roi-example",
   category: "Investing",
 },
+{
+  title: "Loan Payment Example Step by Step",
+  description: "Simple example of how loan payments are calculated.",
+  href: "/guides/loan-payment-example",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

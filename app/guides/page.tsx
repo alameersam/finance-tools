@@ -76,6 +76,12 @@ const guides = [
   href: "/guides/compound-interest-formula-explained",
   category: "Savings",
 },
+{
+  title: "How to Calculate Loan Interest",
+  description: "Step-by-step guide to calculate loan interest with example.",
+  href: "/guides/how-to-calculate-loan-interest",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

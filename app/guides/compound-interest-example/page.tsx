@@ -47,7 +47,26 @@ export default function CompoundInterestExamplePage() {
               Over time, your investment grows significantly due to compounding.
             </p>
           </div>
-
+            <div>
+  <h2 className="text-2xl font-semibold">Related guides</h2>
+  <p className="mt-2 text-slate-600">
+    To understand the math behind growth, read our{" "}
+    <a
+      href="/guides/compound-interest-formula-explained"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      compound interest formula explained guide
+    </a>
+    . You can also learn more in our{" "}
+    <a
+      href="/guides/how-compound-interest-grows-savings"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      guide on how compound interest grows savings
+    </a>
+    .
+  </p>
+</div>
           <a
             href="/savings-calculator"
             className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"

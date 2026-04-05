@@ -47,7 +47,26 @@ export default function ROIExamplePage() {
               ROI = (Profit / Investment) × 100 = 20%.
             </p>
           </div>
-
+            <div>
+  <h2 className="text-2xl font-semibold">Related guides</h2>
+  <p className="mt-2 text-slate-600">
+    To better understand the calculation, read our{" "}
+    <a
+      href="/guides/roi-formula-explained"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      ROI formula explained guide
+    </a>
+    . You can also explore what returns are considered good in our{" "}
+    <a
+      href="/guides/what-is-a-good-roi"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      what is a good ROI article
+    </a>
+    .
+  </p>
+</div>
           <a
             href="/roi-calculator"
             className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"

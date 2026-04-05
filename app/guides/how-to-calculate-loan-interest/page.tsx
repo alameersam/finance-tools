@@ -46,7 +46,26 @@ export default function LoanInterestPage() {
               A $10,000 loan at 5% interest for 1 year results in $500 interest.
             </p>
           </div>
-
+            <div>
+  <h2 className="text-2xl font-semibold">Related guides</h2>
+  <p className="mt-2 text-slate-600">
+    To understand the full calculation, read our{" "}
+    <a
+      href="/guides/loan-payment-formula-explained"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      loan payment formula explained guide
+    </a>
+    . You can also compare repayment periods in our{" "}
+    <a
+      href="/guides/loan-term-vs-interest-cost"
+      className="font-medium text-emerald-700 hover:underline"
+    >
+      loan term vs interest cost article
+    </a>
+    .
+  </p>
+</div>
           <a
             href="/loan-calculator"
             className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"

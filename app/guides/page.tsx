@@ -6,7 +6,26 @@ export const metadata: Metadata = {
     "Simple guides explaining loans, savings, ROI, and key financial concepts to help you make better decisions.",
 };
 const guides = [
-  {
+    {
+    title: "Loan Payment Example Step by Step",
+    description: "Simple example of how loan payments are calculated.",
+    href: "/guides/loan-payment-example",
+    category: "Loans",
+    },
+    {
+    title: "How Much Will My Savings Grow in 5 Years?",
+    description: "Estimate savings growth over 5 years with compounding.",
+    href: "/guides/how-much-will-my-savings-grow-in-5-years",
+    category: "Savings",
+    },
+    {
+    title: "What Affects Your Loan Payment?",
+    description: "Key factors that impact your monthly loan payment.",
+    href: "/guides/what-affects-loan-payment",
+    category: "Loans",
+    },
+
+    {
     title: "How Loan Payments Work",
     description:
       "Learn how monthly loan payments are calculated and what affects total interest.",
@@ -93,24 +112,6 @@ const guides = [
   description: "Simple ROI example to understand investment returns.",
   href: "/guides/roi-example",
   category: "Investing",
-},
-{
-  title: "Loan Payment Example Step by Step",
-  description: "Simple example of how loan payments are calculated.",
-  href: "/guides/loan-payment-example",
-  category: "Loans",
-},
-{
-  title: "How Much Will My Savings Grow in 5 Years?",
-  description: "Estimate savings growth over 5 years with compounding.",
-  href: "/guides/how-much-will-my-savings-grow-in-5-years",
-  category: "Savings",
-},
-{
-  title: "What Affects Your Loan Payment?",
-  description: "Key factors that impact your monthly loan payment.",
-  href: "/guides/what-affects-loan-payment",
-  category: "Loans",
 },
 ];
 

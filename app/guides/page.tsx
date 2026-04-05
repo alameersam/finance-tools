@@ -100,6 +100,12 @@ const guides = [
   href: "/guides/loan-payment-example",
   category: "Loans",
 },
+{
+  title: "How Much Will My Savings Grow in 5 Years?",
+  description: "Estimate savings growth over 5 years with compounding.",
+  href: "/guides/how-much-will-my-savings-grow-in-5-years",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {

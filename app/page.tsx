@@ -9,23 +9,23 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
       <section className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
-  <div className="max-w-3xl">
-    <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-      Simple financial calculators to make smarter decisions
-    </h1>
+        <div className="max-w-3xl">
+        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+        Simple financial calculators to make smarter decisions
+        </h1>
 
-    <p className="mt-6 text-lg leading-8 text-slate-600">
-      Use our free tools to calculate loan payments, grow your savings, and
-      evaluate investments in seconds.
-    </p>
+        <p className="mt-6 text-lg leading-8 text-slate-600">
+          Use our free tools to calculate loan payments, grow your savings, and
+          evaluate investments in seconds.
+         </p>
 
-    <div className="mt-8 flex gap-4">
-      <a
-        href="/calculators"
+          <div className="mt-8 flex gap-4">
+          <a
+           href="/calculators"
         className="rounded-xl bg-slate-900 px-6 py-3 text-sm font-semibold text-white hover:bg-slate-800"
-      >
+          >
         View Calculators
-      </a>
+        </a>
 
       <a
         href="/guides"
@@ -34,6 +34,17 @@ export default function Home() {
         Learn More
       </a>
     </div>
+  </div>
+</section>
+
+<section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+  <div className="max-w-3xl">
+    <h2 className="text-3xl font-bold">
+      Free Financial Calculators with Simple Examples
+    </h2>
+    <p className="mt-4 text-lg text-slate-600">
+      Learn how loans, savings, and ROI work with clear step-by-step examples and easy-to-use tools.
+    </p>
   </div>
 </section>
 

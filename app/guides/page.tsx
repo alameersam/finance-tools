@@ -113,6 +113,12 @@ const guides = [
   href: "/guides/roi-example",
   category: "Investing",
 },
+{
+  title: "ROI vs Profit: What Is the Difference?",
+  description: "Understand the difference between ROI and profit.",
+  href: "/guides/roi-vs-profit",
+  category: "Investing",
+},
 ];
 
 export default function GuidesPage() {

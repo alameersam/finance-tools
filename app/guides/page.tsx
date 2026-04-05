@@ -106,6 +106,12 @@ const guides = [
   href: "/guides/how-much-will-my-savings-grow-in-5-years",
   category: "Savings",
 },
+{
+  title: "What Affects Your Loan Payment?",
+  description: "Key factors that impact your monthly loan payment.",
+  href: "/guides/what-affects-loan-payment",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ROI Formula Explained with Example",
+  title: "ROI Formula Explained (With Example)",
   description:
     "Learn the ROI formula, what it means, and see a simple example of how return on investment is calculated.",
 };

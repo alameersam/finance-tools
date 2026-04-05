@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Compound Interest Formula Explained with Example",
+  title: "Compound Interest Formula Explained (With Example)",
   description:
     "Learn the compound interest formula, how it works, and see a simple example of savings growth over time.",
 };

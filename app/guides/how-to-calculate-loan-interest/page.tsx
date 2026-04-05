@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How to Calculate Loan Interest Step by Step",
+  title: "How to Calculate Loan Interest Step by Step (Simple Example)",
   description:
     "Learn how to calculate loan interest step by step with a simple example.",
 };

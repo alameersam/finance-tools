@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Loan Payment Formula Explained with Example",
+  title: "Loan Payment Formula Explained (With Simple Example)",
   description:
     "Learn the loan payment formula, how it works, and see a simple example calculation.",
 };

@@ -87,6 +87,17 @@ const guides = [
   description: "Step-by-step compound interest example for beginners.",
   href: "/guides/compound-interest-example",
   category: "Savings",
+},{
+  title: "Compound Interest Example",
+  description: "Step-by-step compound interest example for beginners.",
+  href: "/guides/compound-interest-example",
+  category: "Savings",
+},
+{
+  title: "ROI Example for Beginners",
+  description: "Simple ROI example to understand investment returns.",
+  href: "/guides/roi-example",
+  category: "Investing",
 },
 ];
 

@@ -82,6 +82,12 @@ const guides = [
   href: "/guides/how-to-calculate-loan-interest",
   category: "Loans",
 },
+{
+  title: "Compound Interest Example",
+  description: "Step-by-step compound interest example for beginners.",
+  href: "/guides/compound-interest-example",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {

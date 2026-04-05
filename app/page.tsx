@@ -107,6 +107,41 @@ export default function Home() {
 </section>
 <section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
   <div className="max-w-3xl">
+    <h2 className="text-3xl font-bold">
+      Latest Guides
+    </h2>
+    <p className="mt-4 text-lg text-slate-600">
+      Learn financial concepts with simple examples.
+    </p>
+  </div>
+
+  <div className="mt-8 grid gap-6 md:grid-cols-3">
+
+    <a href="/guides/loan-payment-example" className="block p-6 bg-white rounded-2xl shadow-sm hover:shadow-md">
+      <h3 className="font-semibold">Loan Payment Example</h3>
+      <p className="text-sm text-slate-600 mt-2">
+        Step-by-step calculation of loan payments.
+      </p>
+    </a>
+
+    <a href="/guides/compound-interest-example" className="block p-6 bg-white rounded-2xl shadow-sm hover:shadow-md">
+      <h3 className="font-semibold">Compound Interest Example</h3>
+      <p className="text-sm text-slate-600 mt-2">
+        See how savings grow over time.
+      </p>
+    </a>
+
+    <a href="/guides/roi-example" className="block p-6 bg-white rounded-2xl shadow-sm hover:shadow-md">
+      <h3 className="font-semibold">ROI Example</h3>
+      <p className="text-sm text-slate-600 mt-2">
+        Understand investment returns easily.
+      </p>
+    </a>
+
+  </div>
+</section>
+<section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+  <div className="max-w-3xl">
     <h2 className="text-3xl font-bold tracking-tight">
       Why use FinanceTools
     </h2>

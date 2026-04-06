@@ -35,15 +35,22 @@ export default function InterestComparisonPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Example</h2>
-            <p className="mt-2 text-slate-600">
-              If you invest $10,000 at 5% for 10 years:
-              <br />
-              Simple interest gives you steady growth.
-              <br />
-              Compound interest results in significantly higher returns.
-            </p>
-          </div>
+  <h2 className="text-2xl font-semibold">Example</h2>
+  <p className="mt-2 text-slate-600">
+    Suppose you invest $10,000 at 5% for 10 years:
+    <br /><br />
+
+    <strong>Simple interest:</strong><br />
+    Interest = $10,000 × 5% × 10 = $5,000<br />
+    Final amount = <strong>$15,000</strong><br /><br />
+
+    <strong>Compound interest:</strong><br />
+    Final amount ≈ <strong>$16,288.95</strong><br />
+    Interest earned ≈ <strong>$6,288.95</strong><br /><br />
+
+    Difference = <strong>$1,288.95 more</strong> with compound interest.
+  </p>
+</div>
 
           <div>
             <h2 className="text-2xl font-semibold">Which is better?</h2>

@@ -3,43 +3,67 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Loan Payment Example: $50,000 at 5% for 10 Years",
   description:
-    "See a detailed example of a $50,000 loan at 5% over 10 years and how monthly payments are calculated.",
+    "See a complete example of a $50,000 loan at 5% over 10 years, including monthly payment, total payment, and total interest.",
 };
 
 export default function LoanPaymentExampleSpecificPage() {
   return (
-    <main className="min-h-screen bg-slate-50 px-6 py-16">
+    <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900">
       <article className="mx-auto max-w-3xl">
         <h1 className="text-4xl font-bold">
           Loan Payment Example: $50,000 at 5% for 10 Years
         </h1>
 
         <p className="mt-6 text-lg text-slate-600">
-          Let’s break down a real loan example to understand how monthly payments are calculated.
+          Let’s walk through a real example of a $50,000 loan at 5% annual
+          interest over 10 years so you can understand the monthly payment and
+          total cost clearly.
         </p>
 
-        <section className="mt-10 space-y-6 bg-white p-8 rounded-2xl">
-
+        <section className="mt-10 space-y-6 rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
           <div>
             <h2 className="text-2xl font-semibold">Loan details</h2>
             <p className="mt-2 text-slate-600">
-              Loan amount: $50,000<br />
-              Interest rate: 5% annually<br />
-              Term: 10 years (120 months)
+              Loan amount: $50,000
+              <br />
+              Interest rate: 5% annually
+              <br />
+              Term: 10 years
+              <br />
+              Number of payments: 120 monthly payments
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Monthly interest</h2>
+            <h2 className="text-2xl font-semibold">Monthly payment</h2>
             <p className="mt-2 text-slate-600">
-              Monthly rate = 5% ÷ 12 = 0.4167%
+              For this loan, the monthly payment is approximately{" "}
+              <strong>$530.33</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Result</h2>
+            <h2 className="text-2xl font-semibold">Total payment</h2>
             <p className="mt-2 text-slate-600">
-              Using the formula, you can calculate the exact monthly payment.
+              Over 10 years, the total amount paid is approximately{" "}
+              <strong>$63,639.60</strong>.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">Total interest</h2>
+            <p className="mt-2 text-slate-600">
+              That means the total interest paid is approximately{" "}
+              <strong>$13,639.60</strong>.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">What this means</h2>
+            <p className="mt-2 text-slate-600">
+              Even though the loan amount is $50,000, the total cost is much
+              higher because interest is added over time. This is why both the
+              interest rate and loan term matter so much.
             </p>
           </div>
 
@@ -58,26 +82,26 @@ export default function LoanPaymentExampleSpecificPage() {
                 href="/guides/how-loan-interest-works-monthly"
                 className="font-medium text-emerald-700 hover:underline"
               >
-                monthly interest explanation
+                monthly loan interest explanation
               </a>
               .
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Key takeaway</h2>
+            <h2 className="text-2xl font-semibold">Try your own numbers</h2>
             <p className="mt-2 text-slate-600">
-              Real examples help you understand how loan terms and interest rates impact your payments.
+              Use the calculator to test different loan amounts, interest rates,
+              and loan terms to compare results instantly.
             </p>
           </div>
 
           <a
             href="/loan-calculator"
-            className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"
+            className="inline-block mt-4 rounded-lg bg-black px-5 py-3 text-white"
           >
             Open Loan Calculator
           </a>
-
         </section>
       </article>
     </main>

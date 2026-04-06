@@ -131,6 +131,12 @@ const guides = [
   href: "/guides/loan-payment-example-50000-5-percent-10-years",
   category: "Loans",
 },
+{
+  title: "Compound vs Simple Interest",
+  description: "Understand the difference between compound and simple interest.",
+  href: "/guides/compound-vs-simple-interest",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {

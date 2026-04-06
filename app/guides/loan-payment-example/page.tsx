@@ -1,69 +1,72 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Loan Payment Example Step by Step (Simple Calculation)",
+  title: "Loan Payment Example Step by Step (With Real Numbers)",
   description:
-    "Learn how loan payments are calculated with a simple step-by-step example.",
+    "See a complete loan payment example with real numbers, including monthly payment and total cost.",
 };
 
 export default function LoanPaymentExamplePage() {
   return (
-    <main className="min-h-screen bg-slate-50 px-6 py-16">
+    <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900">
       <article className="mx-auto max-w-3xl">
         <h1 className="text-4xl font-bold">
           Loan Payment Example Step by Step
         </h1>
 
         <p className="mt-6 text-lg text-slate-600">
-          Understanding a real loan payment example helps you clearly see how monthly payments are calculated.
+          Let’s walk through a real loan example so you can clearly understand how monthly payments are calculated.
         </p>
 
         <section className="mt-10 space-y-6 bg-white p-8 rounded-2xl">
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 1: Loan details</h2>
+            <h2 className="text-2xl font-semibold">Loan details</h2>
             <p className="mt-2 text-slate-600">
-              Assume a loan of $50,000 at 5% interest for 10 years.
+              Loan amount: $20,000<br />
+              Interest rate: 6% annually<br />
+              Term: 5 years (60 months)
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 2: Monthly rate</h2>
+            <h2 className="text-2xl font-semibold">Monthly payment</h2>
             <p className="mt-2 text-slate-600">
-              Monthly interest rate = 5% ÷ 12.
+              The monthly payment is approximately <strong>$386.66</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 3: Number of payments</h2>
+            <h2 className="text-2xl font-semibold">Total payment</h2>
             <p className="mt-2 text-slate-600">
-              10 years × 12 months = 120 payments.
+              Total paid over the loan: <strong>$23,199.60</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 4: Result</h2>
+            <h2 className="text-2xl font-semibold">Total interest</h2>
             <p className="mt-2 text-slate-600">
-              Using the formula, you get the monthly payment amount.
+              Total interest paid: <strong>$3,199.60</strong>.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">What this shows</h2>
+            <p className="mt-2 text-slate-600">
+              Even a moderate interest rate adds a significant cost over time, especially for longer loans.
             </p>
           </div>
 
           <div>
             <h2 className="text-2xl font-semibold">Related guides</h2>
             <p className="mt-2 text-slate-600">
-              Learn more in our{" "}
-              <a
-                href="/guides/loan-payment-formula-explained"
-                className="font-medium text-emerald-700 hover:underline"
-              >
-                loan payment formula explained guide
-              </a>
-              , and understand interest in our{" "}
-              <a
-                href="/guides/how-to-calculate-loan-interest"
-                className="font-medium text-emerald-700 hover:underline"
-              >
-                loan interest step-by-step guide
+              Read our{" "}
+              <a href="/guides/loan-payment-formula-explained" className="text-emerald-700 hover:underline">
+                loan payment formula guide
+              </a>{" "}
+              and{" "}
+              <a href="/guides/how-loan-interest-works-monthly" className="text-emerald-700 hover:underline">
+                monthly interest explanation
               </a>
               .
             </p>

@@ -125,6 +125,12 @@ const guides = [
   href: "/guides/how-loan-interest-works-monthly",
   category: "Loans",
 },
+{
+  title: "Loan Payment Example: $50,000 at 5% for 10 Years",
+  description: "Detailed example of loan payments with real numbers.",
+  href: "/guides/loan-payment-example-50000-5-percent-10-years",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

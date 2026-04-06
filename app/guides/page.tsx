@@ -119,6 +119,12 @@ const guides = [
   href: "/guides/roi-vs-profit",
   category: "Investing",
 },
+{
+  title: "How Does Loan Interest Work Monthly?",
+  description: "Simple explanation of monthly loan interest calculation.",
+  href: "/guides/how-loan-interest-works-monthly",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

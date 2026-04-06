@@ -67,6 +67,12 @@ export default function CompoundInterestExamplePage() {
     .
   </p>
 </div>
+<div>
+  <h2 className="text-2xl font-semibold">Key takeaway</h2>
+  <p className="mt-2 text-slate-600">
+    Understanding this concept helps you make better financial decisions and compare different scenarios before committing.
+  </p>
+</div>
           <a
             href="/savings-calculator"
             className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"

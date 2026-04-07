@@ -1,80 +1,88 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "How to Calculate Loan Interest Step by Step (Simple Example)",
+  title: "How to Calculate Loan Interest Step by Step (With Example)",
   description:
-    "Learn how to calculate loan interest step by step with a simple example.",
+    "Learn how to calculate loan interest step by step with a clear example and actual numbers.",
 };
 
 export default function LoanInterestPage() {
   return (
-    <main className="min-h-screen bg-slate-50 px-6 py-16">
+    <main className="min-h-screen bg-slate-50 px-6 py-16 text-slate-900">
       <article className="mx-auto max-w-3xl">
         <h1 className="text-4xl font-bold">
           How to Calculate Loan Interest Step by Step
         </h1>
 
         <p className="mt-6 text-lg text-slate-600">
-          Understanding how loan interest is calculated helps you know the true cost of borrowing.
+          Let’s use a simple example to show exactly how loan interest is calculated.
         </p>
 
-        <section className="mt-10 space-y-6 bg-white p-8 rounded-2xl">
+        <section className="mt-10 space-y-6 rounded-2xl bg-white p-8 shadow-sm ring-1 ring-slate-200">
           <div>
-            <h2 className="text-2xl font-semibold">Step 1: Know your loan amount</h2>
+            <h2 className="text-2xl font-semibold">Step 1: Loan amount</h2>
             <p className="mt-2 text-slate-600">
-              This is the total amount you borrowed.
+              Assume you borrow <strong>$10,000</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 2: Identify interest rate</h2>
+            <h2 className="text-2xl font-semibold">Step 2: Interest rate</h2>
             <p className="mt-2 text-slate-600">
-              Use the annual interest rate provided by your lender.
+              Assume the annual interest rate is <strong>5%</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Step 3: Apply the formula</h2>
+            <h2 className="text-2xl font-semibold">Step 3: Time period</h2>
             <p className="mt-2 text-slate-600">
-              Interest = Loan Amount × Rate × Time
+              Assume the loan is for <strong>1 year</strong>.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold">Example</h2>
+            <h2 className="text-2xl font-semibold">Step 4: Apply the formula</h2>
             <p className="mt-2 text-slate-600">
-              A $10,000 loan at 5% interest for 1 year results in $500 interest.
+              Interest = Loan Amount × Interest Rate × Time
+              <br />
+              Interest = $10,000 × 5% × 1
+              <br />
+              Interest = <strong>$500</strong>
             </p>
           </div>
-            <div>
-  <h2 className="text-2xl font-semibold">Related guides</h2>
-  <p className="mt-2 text-slate-600">
-    To understand the full calculation, read our{" "}
-    <a
-      href="/guides/loan-payment-formula-explained"
-      className="font-medium text-emerald-700 hover:underline"
-    >
-      loan payment formula explained guide
-    </a>
-    . You can also compare repayment periods in our{" "}
-    <a
-      href="/guides/loan-term-vs-interest-cost"
-      className="font-medium text-emerald-700 hover:underline"
-    >
-      loan term vs interest cost article
-    </a>
-    .
-  </p>
-</div>
-<div>
-  <h2 className="text-2xl font-semibold">Key takeaway</h2>
-  <p className="mt-2 text-slate-600">
-    Understanding this concept helps you make better financial decisions and compare different scenarios before committing.
-  </p>
-</div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">What this means</h2>
+            <p className="mt-2 text-slate-600">
+              In this simple example, the total interest cost for one year is $500.
+              If the loan lasts longer, the total interest usually becomes higher.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-semibold">Related guides</h2>
+            <p className="mt-2 text-slate-600">
+              To understand the full payment, read our{" "}
+              <a
+                href="/guides/loan-payment-formula-explained"
+                className="font-medium text-emerald-700 hover:underline"
+              >
+                loan payment formula explained guide
+              </a>
+              . You can also compare repayment periods in our{" "}
+              <a
+                href="/guides/loan-term-vs-interest-cost"
+                className="font-medium text-emerald-700 hover:underline"
+              >
+                loan term vs interest cost article
+              </a>
+              .
+            </p>
+          </div>
+
           <a
             href="/loan-calculator"
-            className="inline-block mt-4 bg-black text-white px-5 py-3 rounded-lg"
+            className="inline-block mt-4 rounded-lg bg-black px-5 py-3 text-white"
           >
             Open Loan Calculator
           </a>

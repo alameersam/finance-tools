@@ -137,6 +137,12 @@ const guides = [
   href: "/guides/compound-vs-simple-interest",
   category: "Savings",
 },
+{
+  title: "How Much Interest Will I Pay on a Loan?",
+  description: "See exactly how much interest you will pay with a real example.",
+  href: "/guides/how-much-interest-will-i-pay-on-a-loan",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

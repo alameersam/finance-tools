@@ -146,6 +146,44 @@ export default function Home() {
       Learn with Real Examples
     </h2>
     <p className="mt-4 text-lg text-slate-600">
+      Explore simple guides with real numbers to understand loans, ROI, and savings.
+    </p>
+  </div>
+
+  <ul className="mt-6 space-y-3 text-emerald-700">
+    <li>
+      <a href="/guides/how-much-interest-will-i-pay-on-a-loan" className="hover:underline">
+        How Much Interest Will I Pay on a Loan?
+      </a>
+    </li>
+    <li>
+      <a href="/guides/how-to-reduce-loan-interest" className="hover:underline">
+        How to Reduce Loan Interest
+      </a>
+    </li>
+    <li>
+      <a href="/guides/loan-payment-example" className="hover:underline">
+        Loan Payment Example Step by Step
+      </a>
+    </li>
+    <li>
+      <a href="/guides/roi-example" className="hover:underline">
+        ROI Example for Beginners
+      </a>
+    </li>
+    <li>
+      <a href="/guides/compound-interest-example" className="hover:underline">
+        Compound Interest Example
+      </a>
+    </li>
+  </ul>
+</section>
+<section className="mx-auto max-w-7xl px-6 pb-16 lg:px-8">
+  <div className="max-w-3xl">
+    <h2 className="text-3xl font-bold">
+      Learn with Real Examples
+    </h2>
+    <p className="mt-4 text-lg text-slate-600">
       Understand loans, ROI, and savings with clear examples and real numbers.
     </p>
   </div>

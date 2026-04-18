@@ -143,6 +143,12 @@ const guides = [
   href: "/guides/how-much-interest-will-i-pay-on-a-loan",
   category: "Loans",
 },
+{
+  title: "How to Reduce Loan Interest",
+  description: "Simple strategies to lower your loan interest.",
+  href: "/guides/how-to-reduce-loan-interest",
+  category: "Loans",
+},
 ];
 
 export default function GuidesPage() {

@@ -91,3 +91,16 @@ export default function LoanInterestPage() {
     </main>
   );
 }
+<div>
+  <h2 className="text-2xl font-semibold">Related</h2>
+  <p className="mt-2 text-slate-600">
+    If you want to understand the full cost of a loan, including total interest,
+    see this detailed example:
+    <a
+      href="/guides/how-much-interest-will-i-pay-on-a-loan"
+      className="text-emerald-700 hover:underline ml-1"
+    >
+      How much interest will I pay on a loan
+    </a>.
+  </p>
+</div>

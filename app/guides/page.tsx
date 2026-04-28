@@ -149,6 +149,12 @@ const guides = [
   href: "/guides/how-to-reduce-loan-interest",
   category: "Loans",
 },
+{
+  title: "How Much Will My Savings Grow in 10 Years?",
+  description: "See savings growth over 10 years with real numbers.",
+  href: "/guides/how-much-will-my-savings-grow-in-10-years",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {

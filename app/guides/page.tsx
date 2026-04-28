@@ -155,6 +155,12 @@ const guides = [
   href: "/guides/how-much-will-my-savings-grow-in-10-years",
   category: "Savings",
 },
+{
+  title: "How Much Should I Save Each Month to Reach $100,000?",
+  description: "Calculate monthly savings needed to hit a savings goal.",
+  href: "/guides/how-much-should-i-save-each-month-to-reach-100000",
+  category: "Savings",
+},
 ];
 
 export default function GuidesPage() {
